@@ -1,4 +1,3 @@
-import { Name } from '~components/Name'
 import { SideBar } from '~components/SideBar'
 import { MainContent } from '~components/MainContent'
 import { Navigation } from '~components/Navigation'
