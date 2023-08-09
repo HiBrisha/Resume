@@ -1,5 +1,6 @@
 import { Home } from '../pages/Home'
 import { About } from '../pages/About'
+import { Contact } from '../pages/Contact'
 import { IRouter } from './types'
 import { Route, Routes } from 'react-router-dom'
 
@@ -22,6 +23,10 @@ export const routes: IRouter[] = [
   {
     path: '/about',
     element: <About />,
+  },
+  {
+    path: '/contact',
+    element: <Contact />,
   },
 ]
 
