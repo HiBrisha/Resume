@@ -4,7 +4,7 @@ import { Navigation } from '~components/Navigation'
 
 export const MainLayout = () => {
   return (
-    <div className='flex flex-row w-full h-screen justify-center'>
+    <div className='flex flex-row w-full h-screen justify-start'>
       <Navigation />
       <SideBar />
       <MainContent />

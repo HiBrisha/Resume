@@ -6,13 +6,14 @@ export default {
       backgroundColor: {
         'main-bkc': '#373b40',
         'header-bkc': '#585d65',
+        'green-light': '#68e0cf',
       },
       textColor: {
         'main-tcl': '#ffffff',
         'type-tcl': '#68e0cf',
       },
-      colors:{
-        'green-light':'#68e0cf',
+      colors: {
+        'green-light': '#68e0cf',
       },
     },
   },
