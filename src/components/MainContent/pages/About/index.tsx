@@ -23,22 +23,22 @@ export const About = () => {
             I have the skills and knowledge necessary to get the job done. I am dedicated to delivering high-quality work and I am always striving to improve my skills and stay
             up-to-date with the latest trends and technologies in my field..
           </div>
-          <div className='grid grid-cols-2 grid-rows-1 gap-4 pr-4'>
-            <div className='grid grid-cols-2 grid-row-3 gap-4 pr-40'>
-              <div className='text-type-tcl text-left'>AGE:</div>
-              <div className='text-left'>23</div>
-              <div className='text-type-tcl text-left'>FREELANCE:</div>
-              <div className='text-left'>Avalible</div>
-              <div className='text-type-tcl text-left'>PHONE:</div>
-              <div className='text-left'>+84389742037</div>
+          <div className='grid grid-cols-2 grid-rows-1 gap-4 pr-4 mt-4'>
+            <div className='grid grid-cols-3 grid-row-3 gap-4 pr-4'>
+              <div className='text-type-tcl text-left col-span-1'>AGE:</div>
+              <div className='text-left col-span-2'>23</div>
+              <div className='text-type-tcl text-left col-span-1'>FREELANCE:</div>
+              <div className='text-left col-span-2'>Avalible</div>
+              <div className='text-type-tcl text-left col-span-1'>PHONE:</div>
+              <div className='text-left col-span-2'>+84389742037</div>
             </div>
-            <div className='grid grid-cols-2 grid-row-3 gap-4 pr-40'>
-              <div className='text-type-tcl text-left'>RESIDENCE:</div>
-              <div className='text-left'>VIETNAM</div>
-              <div className='text-type-tcl text-left'>ADDRESS:</div>
-              <div className='text-left'>Da Nang City</div>
-              <div className='text-type-tcl text-left'>E-MAIL:</div>
-              <div className='text-left'>hieunm.engineer@gmail.com</div>
+            <div className='grid grid-cols-3 grid-row-3 gap-4 pr-4'>
+              <div className='text-type-tcl text-left col-span-1'>RESIDENCE:</div>
+              <div className='text-left col-span-2'>VIETNAM</div>
+              <div className='text-type-tcl text-left col-span-1'>ADDRESS:</div>
+              <div className='text-left col-span-2'>Da Nang City</div>
+              <div className='text-type-tcl text-left col-span-1'>E-MAIL:</div>
+              <div className='text-left col-span-2'>hieunm.engineer@gmail.com</div>
             </div>
           </div>
         </div>

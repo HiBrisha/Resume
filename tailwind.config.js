@@ -11,6 +11,9 @@ export default {
         'main-tcl': '#ffffff',
         'type-tcl': '#68e0cf',
       },
+      colors:{
+        'green-light':'#68e0cf',
+      },
     },
   },
   plugins: [],
