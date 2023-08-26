@@ -35,7 +35,7 @@ export const TypeWriter: React.FC<TypeWriterProps> = ({ texts, delay }) => {
     }, delay)
 
     return () => clearTimeout(timeout)
-  }, [displayText, isDeleting, arrayIndex])
+  }, [displayText, isDeleting, arrayIndex, currentIndex, delay, texts])
 
   return <div className='typewriter'>{displayText}</div>
 }

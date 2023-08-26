@@ -1,13 +1,13 @@
 export const About = () => {
   return (
     <>
-      <div className='w-full h-1/2 flex items-end'>
+      <div className='w-full h-1/2 flex items-end p-8'>
         <header className=' text-6xl text-main-tcl text-left'>
           About Me
           <h2 className='text-4xl text-type-tcl mt-4'>My Story</h2>
         </header>
       </div>
-      <div className='w-full h-full flex flex-col justify-center'>
+      <div className='w-full h-full flex flex-col justify-center p-8'>
         <div className='w-full h-fit flex flex-row justify-around'>
           <div className='w-1/2 h-fit pr-4 text-left'>
             Hi, my name is Hieu Nguyen and I am from Phu Yen, Vietnam. I am a talented individual who excels in both design and development. I have a passion for creating beautiful
